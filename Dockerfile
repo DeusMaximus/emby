@@ -13,7 +13,7 @@ RUN export LANG=C.UTF-8 && \
     monover=5.14.0.177-1 && \
     key=/etc/apk/keys/sgerrand.rsa.pub && \
     url='https://github.com/MediaBrowser/Emby/releases/download' && \
-    version=3.5.0.0 && \
+    version=3.5.2.0 && \
     apk --no-cache --no-progress upgrade && \
     apk --no-cache --no-progress add bash curl shadow sqlite-libs tini tzdata&&\
     echo "-----BEGIN PUBLIC KEY-----\
